@@ -1,6 +1,7 @@
 
 import "./assets/styles/styles.scss"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AstralPage from "./components/AstralPage";
 // import Home from "./pages/Home";
 // import About from "./pages/About";
 // import Blog from "./pages/Blog";
@@ -12,8 +13,8 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/" element={<AstralPage />} />
+        <Route path="/about" element={<Aboutn />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
       <Footer />
